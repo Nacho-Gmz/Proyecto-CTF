@@ -7,7 +7,7 @@
     <link rel="icon" href="{{ url_for('static',filename='img/icono.png') }}">
     <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
     <meta name="keywords" content="docker-compose, docker, stack">
-    <meta name="author" content="Tutum dev team">
+    <meta name="author" content="Nacho">
     <link rel='stylesheet' href="{{ url_for('static',filename='style.css') }}" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -49,7 +49,10 @@
             case "cancelar":
               break;
             case "agregar":
-              window.location = "http://game-app-nachogmz-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/";
+              //http://game-app-nachogmz-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/
+              //https://httpd-nachogmz-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/
+              //https://httpd-game-app-nachogmz-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/
+              window.location = "https://httpd-nachogmz-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/";
               break;
           }
         });
